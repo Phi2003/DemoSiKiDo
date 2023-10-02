@@ -1,0 +1,194 @@
+table, th, td {
+    border: 2px solid rgb(227, 223, 223);
+    border-collapse: collapse;
+    padding: 5px;
+    font-size: 15px;
+    
+  }
+  .f-tuvan{
+    position: relative;
+    padding: 8px;
+    background-color: rgba(0,0,0,.2);
+    border-radius: 12px;
+    max-width: 100%;
+  }
+  .f-tuvan input {
+    background-color: #fff;
+    border: none;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+    padding-right: 0;
+}
+.btn-search {
+  border: none;
+  background-color: transparent;
+  height: calc(100% - 18px);
+  right: 7px;
+  width: 40px;
+  cursor: pointer;
+  position: absolute;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+  .imgbg{
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .imgicon{
+    width: 90%;
+    padding: 1px;
+  }
+  .imgicon2{
+    width: 35%;
+  }
+  .textnoidung{
+    font-size: 13px;
+  }
+  .textview{
+    font-size: 13px;
+    text-align: center;
+  }
+  .textselect{
+    font-size: 13px;
+    text-align: center
+  }
+  .texttieude{
+    color:red;
+    font-weight: bold;
+  }
+  .textthongtin{
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    width: 50%;
+    padding: 10px;
+  }
+.textheader{
+    font-size: 12px;
+   width: auto;
+    color: white;
+    font-weight: bold;
+}
+.textbanner{
+  color: white;
+}
+.textcenter{
+    text-align: center
+}
+
+.text70{
+  width: 70%;
+}
+.texttuvan{
+  font-size: 13px;
+  align-self: center;
+}
+.fontas{
+  padding-top: 5%;
+  
+}
+.formsearch{
+    line-height: 20px;
+    font-size: 14px;
+}
+.thea{
+    font-size: 13px;
+  
+}
+.thea1 {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+.timeline-star {
+  background-color: #e1e1e1;
+  border-radius: 20px;
+  height: 10px;
+  position: relative;
+  width: calc(100% - 30px);
+}     
+.timeline-sp {
+  background-color: #e1e1e1;
+  border-radius: 20px;
+  height: 2px;
+  position: relative;
+  width: calc(100% - 30px);
+}
+.timeline-tieude {
+  background-color: #e1e1e1;
+  border-radius: 20px;
+  height: 2px;
+  position: relative;
+  width: calc(50% - 30px);
+ 
+  align-self: center;
+ 
+}
+.datecard{
+  background-color: red;
+  color: white;
+  padding: 5%;
+  left: 4px;
+  top:43%;
+  width: 50%;
+  position: absolute;
+
+}
+.datecard1{
+  background-color: red;
+  color: white;
+  padding: 5%;
+  left: 4px;
+  top:30%;
+  width: 70%;
+  position: absolute;
+
+}
+.giahot {
+  color: red;
+  font-weight: bold;
+}
+
+.giamgia {
+  color: #9f9f9f;
+  text-decoration-line: line-through;
+  font-size: 80%;
+}
+.sizebutton{
+  height: 30px;
+  width: 100%;
+}
+.pc,
+.tablet,
+.mobile {
+  align-items: center;
+  display: none;
+}
+
+@media (min-width:1024px) {
+  .pc {
+    display: block;
+
+  }
+}
+
+@media (min-width:740px) and (max-width:1023px) {
+  .tablet {
+    display: block;
+  }
+}
+
+@media (max-width: 740px) {
+  .mobile {
+    display: block;
+    font-size: 13px;
+  }
+}
